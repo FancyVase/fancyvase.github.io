@@ -12,6 +12,13 @@ h1 {
 	margin: 0px;
 }
 
+h2 {
+	text-align: center;
+	font-size: 4em;
+	font-weight: 300;
+    padding-bottom: 15px;
+}
+
 .nav {
 	z-index: 10;
 	padding: 20px 0px;
@@ -217,13 +224,6 @@ canvas {
 	padding: 3%;
 }
 
-.content-heading {
-	text-align: center;
-	font-size: 4em;
-	font-weight: 300;
-	padding: 10px 0px;
-}
-
 .item {
 	text-align: center;
 }
@@ -293,7 +293,7 @@ hr.dark {
 	background-color: #76608A;
 }
 
-.footer {
+footer {
 	background-color: #000;
 	color: #fff;
 	font-weight: 300;
@@ -305,13 +305,13 @@ hr.dark {
 	margin-bottom: 30px;
 }
 
-.footer>a {
+footer>a {
 	color: #fff;
 	text-decoration: underline;
 	transition: 0.25s;
 }
 
-.footer>a:hover {
+footer>a:hover {
 	color: #76608A;
 }
 
@@ -344,4 +344,58 @@ span.link + span.link {
 	.more-link-dark {
 		background-color: #76608A;
 	}
+}
+
+/* Skills */
+.skill-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90%;
+    margin: 0 auto;
+    line-height: 2;
+    -webkit-column-count: 5;
+    -webkit-column-gap:   10px;
+    -moz-column-count:    5;
+    -moz-column-gap:      10px;
+    column-count:         5;
+    column-gap:           10px;  
+}
+
+.skill {
+    margin: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 800;
+}
+
+.skill img {
+    transition: .5s;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+.skill img:hover {
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+	-webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+
+@media (max-width: 800px) {
+	#skill-logos {
+        -moz-column-count:    2;
+        -webkit-column-count: 2;
+        column-count:         2;
+    }
+}
+
+@media (max-width: 550px) {
+    #skill-logos {
+        -moz-column-count:    1;
+        -webkit-column-count: 1;
+        column-count:         1;
+    }
 }
