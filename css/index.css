@@ -344,6 +344,8 @@ span.link + span.link {
 	.more-link-dark {
 		background-color: #76608A;
 	}
+    
+    
 }
 
 /* Skills */
@@ -397,5 +399,13 @@ span.link + span.link {
         -moz-column-count:    1;
         -webkit-column-count: 1;
         column-count:         1;
+    }
+    
+    #space {
+        display: none;
+    }
+    
+    header {
+        background-color: black;
     }
 }
