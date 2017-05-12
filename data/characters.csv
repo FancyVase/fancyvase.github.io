@@ -1,0 +1,505 @@
+Unit,Character,Definition,Pinyin,Radicals,Topic
+A,一,one,yī,,numbers
+A,二,two,èr,,numbers
+A,三,three,sān,一,numbers
+A,四,four,sì,囗,numbers
+A,五,five,wǔ,二,numbers
+A,王,king,wáng,玉,society
+A,六,six,liù,八,numbers
+A,七,seven,qī,一,numbers
+A,八,eight,bā,,numbers
+A,九,nine,jiǔ,乙,numbers
+A,十,ten,shí,,numbers
+A,林,forest,lín,木,nature
+A,大,big,dà,,description
+A,山,mountain,shān,,nature
+A,明,bright,míng,日,description
+A,北,north,běi,匕,geography
+A,京,capital,jīng,亠,society
+A,台,terrace,tái,口,building
+A,何,"who, what how",hé,人,grammar
+A,李,plum,lǐ,木,food
+A,文,writing,wén,,language
+A,生,"birth, life",,,life
+A,中,middle,zhōng,丨,directions
+A,小,small,xiǎo,,description
+B,上,above,shàng,一,directions
+B,海,ocean,hǎi,水,nature
+B,广,broad,guǎng,,description
+B,州,"state, district",zhōu,川,society
+B,东,actions,dōng,一,geography
+B,人,person,rén,,people
+B,成,become,chéng,戈,actions
+B,都,"large city, capital",dū,邑,society
+B,天,"sky, heaven",tiān,大,nature
+B,津,ford,jīn,水,nature
+B,西,west,xī,,geography
+B,路,road,lù,足,transportation
+B,安,peace,ān,宀,society
+B,川,river,chuān,,nature
+B,香,fragrant,xiāng,,senses
+B,港,harbor,gǎng,水,places
+B,南,south,nán,十,geography
+B,街,street,jiē,行,transportation
+B,河,river,hé,水,nature
+B,湖,lake,hú,水,nature
+B,湾,bay,wān,水,nature
+B,金,gold,jīn,,money
+B,市,"market, city",shì,巾,places
+B,省,province,shěng,目,places
+1,你,you,nǐ,人,people
+1,好,good,hǎo,女,description
+1,我,I,wǒ,戈,people
+1,也,also,yě,乙,grammar
+1,去,go,qù,厶,movement
+1,呢,and what about,ne,口,grammar
+1,他,he,tā,人,people
+1,她,she,tā,女,people
+1,们,(plural pronoun marker),men,人,people
+1,很,very,hěn,彳,grammar
+1,忙,busy,máng,心,description
+1,吗,(question particle),ma,口,grammar
+1,老,old,lǎo,,life
+1,高,tall,gāo,,description
+1,不,no,bù,一,grammar
+1,太,excessively,tài,大,grammar
+1,难,difficult,nán,隹,perception
+1,谢,thank,xiè,言,conversation
+1,请,please,qǐng,言,conversation
+1,坐,sit,zuò,土,actions
+1,先,first,xiān,儿,numbers
+1,走,leave,zǒu,,movement
+1,了,(indicates change),le,亅,grammar
+1,姐,older sister,jiě,女,family
+2,哪,which,nǎ,口,grammar
+2,国,country,guó,囗,places
+2,问,ask,wèn,口,conversation
+2,是,to be,shì,日,actions
+2,美,beautiful,měi,羊,description
+2,叫,be called,jiào,口,names
+2,的,(indicates possession),de,白,grammar
+2,同,same,tóng,口,misc.
+2,屋,room,wū,尸,building
+2,别,don't,bié,刀,grammar
+2,名,name,míng,口,names
+2,字,Chinese character,zì,宀,language
+2,贵,expensive,guì,贝,money
+2,姓,surname,xìng,女,names
+2,个,(general measure word),ge,人,measure word
+2,您,you (polite),nín,心,grammar
+2,吧,(indicates supposition),ba,口,grammar
+2,兴,excitement,xìng,八,emotions
+2,片,flat piece,piàn,,measure word
+2,没,(indicates past negative),méi,水,grammar
+2,带,"take, bring",dài,巾,actions
+2,公,"public, official",gōng,八,society
+2,司,"bureau, department",sī,口,society
+2,这,this,zhè,辶,grammar
+3,几,how many,jǐ,,counting
+3,位,(people measure word),wèi,人,measure word
+3,两,two,liǎng,一,numbers
+3,男,male,nán,田,people
+3,女,female,nǚ,,people
+3,师,teacher,shī,巾,school
+3,多,many,duō,夕,counting
+3,年,year,nián,干,time
+3,纪,to record,jì,丝,actions
+3,今,now,jīn,人,time
+3,岁,year of age,suì,山,time
+3,对,correct,duì,寸,perception
+3,那,that,nà,邑,grammar
+3,少,few,shǎo,小,counting
+3,钱,money,qián,金,money
+3,块,"piece, dollar",kuài,土,money
+3,百,hundred,bǎi,白,numbers
+3,千,thousand,qiān,十,numbers
+3,点,"point, o'clock",diǎn,火,time
+3,刻,quarter of an hour,kè,刀,time
+3,半,half,bàn,十,counting
+3,差,lack,chà,工,misc.
+3,钟,clock,zhōng,金,time
+3,头,head,tóu,大,body
+4,谁,who,shéi,言,grammar
+4,开,open; depart,kāi,廾,actions
+4,门,"door, gate",mén,,building
+4,关,close,guān,八,actions
+4,星,star,xīng,日,nature
+4,期,period of time,qī,月,time
+4,什,what,shén,人,grammar
+4,么,(common second syllable),me,丿,grammar
+4,就,then; precisely,jiù,尢,grammar
+4,月,moon; month,yuè,,nature
+4,号,number; day,hào,口,numbers
+4,日,sun; day,rì,,nature
+4,第,(forms ordinal numbers),dì,竹,numbers
+4,次,time,cì,冫,time
+4,来,come,lái,木,movement
+4,过,(indicates past experience),guo,辶,time
+4,要,"want, need",yào,西,emotions
+4,住,live,zhù,人,life
+4,有,have,yǒu,月,actions
+4,口,mouth,kǒu,,body
+4,像,resemble,xiàng,人,perception
+4,万,ten thousand,wàn,一,numbers
+4,比,compare,bǐ,,perception
+4,较,compare,jiào,车,perception
+5,可,can; but,kě,口,grammar
+5,以,take; with,yǐ,人,grammar
+5,知,know,zhī,矢,perception
+5,道,"road, way",dào,辶,transportation
+5,在,at,zài,土,directions
+5,找,look for,zhǎo,手,actions
+5,吃,eat,chī,口,food
+5,饭,cooked rice,fàn,食,food
+5,学,"learn, study",xué,子,school
+5,工,work,gōng,,work
+5,子,(common noun suffix),zi,,grammar
+5,儿,(common suffix),ér,,grammar
+5,地,place,dì,土,places
+5,方,"square, open space",fāng,,places
+5,边,side,biān,辶,places
+5,事,"matter, thing",shì,亅,things
+5,回,go back to,huí,囗,movement
+5,店,"shop, store",diàn,广,places
+5,里,inside,lǐ,,directions
+5,外,outside,wài,夕,directions
+5,左,left,zuǒ,工,directions
+5,右,right,yòu,口,directions
+5,下,down,xià,一,directions
+5,面,side,miàn,,directions
+6,喜,"like, happy",xǐ,口,emotions
+6,欢,happy,huān,又,emotions
+6,朋,friend,péng,月,relationships
+6,友,friend,yǒu,又,relationships
+6,真,really,zhēn,目,grammar
+6,级,"rank, grade",jí,丝,school
+6,长,long,cháng,,description
+6,看,look,kàn,目,senses
+6,起,"rise, begin",qǐ,走,movement
+6,轻,light (not heavy),qīng,车,description
+6,出,out,chū,凵,directions
+6,还,still,hái,辶,grammar
+6,因,because,yīn,囗,grammar
+6,为,"for, because of",wèi,丶,grammar
+6,所,that which,suǒ,户,grammar
+6,作,"do, make",zuò,人,actions
+6,校,school,xiào,木,school
+6,能,"be able to, can",néng,肉,grammar
+6,哥,older brother,gē,口,family
+6,弟,younger brother,dì,弓,family
+6,妹,younger sister,mèi,女,family
+6,忘,forget,wàng,心,perception
+6,家,"family, home",jiā,宀,family
+6,给,give,gěi,丝,interactions
+7,表,cousins of different surname,biǎo,衣,family
+7,县,county,xiàn,厶,places
+7,城,city,chéng,土,places
+7,原,original,yuán,厂,description
+7,厂,factory,chǎng,厂,work
+7,现,current,xiàn,玉,time
+7,会,"can, will",huì,人,grammar
+7,说,speak,shuō,言,language
+7,话,"word, language",huà,言,language
+7,写,write,xiě,冖,language
+7,全,completely,quán,人,grammar
+7,得,must,děi,彳,grammar
+7,到,arrive,dào,刀,movement
+7,时,"time, hour",shí,日,time
+7,候,wait,hòu,人,time
+7,始,begin,shǐ,女,time
+7,和,and,hé,口,grammar
+7,又,again,yòu,,grammar
+7,从,from,cóng,人,directions
+7,前,front; before,qián,刀,directions
+7,后,back; after,hòu,口,directions
+7,之,(written particle),zhī,丶,grammar
+7,听,listen,tīng,口,language
+7,觉,feel,jué,见,emotions
+8,怎,how,zěn,心,grammar
+8,往,go toward,wǎng,彳,directions
+8,离,distant from,lí,禸,directions
+8,远,far away,yuǎn,辶,directions
+8,近,close,jìn,辶,directions
+8,概,approximate,gài,木,perception
+8,汽,"steam, vapor",qì,水,nature
+8,车,vehicle,chē,,nature
+8,首,head; capital,shǒu,,society
+8,机,machine,jī,木,things
+8,场,place,chǎng,土,places
+8,等,wait,děng,竹,actions
+8,打,hit,dǎ,手,actions
+8,电,electricity,diàn,田,nature
+8,班,class,bān,玉,school
+8,间,"between, during",jiān,门,time
+8,交,intersect,jiāo,亠,misc.
+8,通,through; connect,tōng,辶,misc.
+8,件,"(luggage, matters, m.w.)",jiàn,人,measure word
+8,行,O.K.,xíng,,conversation
+8,需,need,xū,雨,emotions
+8,只,only,zhǐ,口,grammar
+8,换,change,huàn,手,misc.
+8,条,(street m.w.),tiáo,木,measure word
+9,平,peaceful,píng,干,society
+9,本,root,běn,木,nature
+9,直,straight,zhí,目,directions
+9,分,divide; minute,fēn,刀,time
+9,清,clear,qīng,水,perception
+9,楚,clear,chǔ,木,perception
+9,共,altogether,gòng,八,people
+9,站,"station, stop",zhàn,立,transportation
+9,然,thus,rán,火,grammar
+9,动,move,dòng,力,movement
+9,物,"thing, matter",wù,牛,things
+9,园,"garden, park",yuán,囗,places
+9,买,buy,mǎi,大,money
+9,卖,sell,mài,十,money
+9,票,ticket,piào,示,things
+9,张,(flat object m.w.),zhāng,弓,measure word
+9,刚,just now,gāng,刀,time
+9,毛,hair,máo,,body
+9,早,be early,zǎo,日,time
+9,着,(indicates verb completed),zháo,目,grammar
+9,记,remember,jì,言,perception
+9,心,"heart, mind",xīn,,body
+9,准,be accurate,zhǔn,冫,description
+9,备,prepare,bèi,田,actions
+10,越,exceed,yuè,走,misc.
+10,最,most,zuì,曰,grammar
+10,温,warm,wēn,水,weather
+10,低,low,dī,人,description
+10,度,degree (of temperature),dù,广,weather
+10,定,determine,dìng,宀,perception
+10,气,"gas, air",qì,,nature
+10,冷,cold,lěng,冫,weather
+10,热,hot,rè,火,weather
+10,死,die,sǐ,歹,life
+10,干,dry,gān,干,weather
+10,正,just,zhèng,止,grammar
+10,样,"kind, type",yàng,木,perception
+10,进,enter,jìn,辶,movement
+10,雨,rain,yǔ,,weather
+10,但,but,dàn,人,grammar
+10,期,"its, his, her, their",qí,八,grammar
+10,实,real,shí,宀,perception
+10,岸,shore,àn,山,nature
+10,错,wrong,cuò,金,perception
+10,阳,sun,yáng,阜,nature
+10,晚,evening,wǎn,日,time
+10,已,already,yǐ,己,time
+10,经,pass through,jīng,丝,movement
+11,快,fast,kuài,心,movement
+11,慢,slow,màn,心,movement
+11,题,"topic, problem",tí,页,conversation
+11,放,"put, let go",fàng,攵,actions
+11,解,loosen,jiě,角,actions
+11,决,decide,jué,冫,perception
+11,久,for a long time,jiǔ,丿,time
+11,完,finish,wán,宀,time
+11,或,or,huò,戈,grammar
+11,者,person who does something,zhě,老,people
+11,再,again,zài,冂,time
+11,见,see,jiàn,,senses
+11,转,turn,zhuǎn,车,movement
+11,跟,with,gēn,足,grammar
+11,讲,speak,jiǎng,言,conversation
+11,具,implement; tool,jù,八,actions
+11,手,hand,shǒu,,body
+11,房,house; room,fáng,户,building
+11,加,add,jiā,力,counting
+11,油,oil; gasoline,yóu,水,transportation
+11,满,fill,mǎn,水,actions
+11,特,especially,tè,牛,description
+11,价,price,jià,人,money
+11,停,stop,tíng,人,movement
+12,根,root,gēn,木,nature
+12,拿,take,ná,手,actions
+12,专,special; expert,zhuān,寸,people
+12,业,business; course of study,yè,一,school
+12,办,do,bàn,力,actions
+12,法,"way, method",fǎ,水,misc.
+12,想,think,xiǎng,心,perception
+12,种,seed; kind,zhǒng,禾,nature
+12,书,book,shū,丨,paper
+12,些,some,xiē,二,counting
+12,抱,newspaper,bào,手,paper
+12,纸,paper,zhǐ,丝,paper
+12,才,not until,cái,一,time
+12,斤,catty (unit of weight),jīn,,measurement
+12,菜,vegetable,cài,艸,food
+12,白,white,bái,,colors
+12,保,guarantee,bǎo,人,conversation
+12,证,evidence,zhèng,言,things
+12,总,collect; sum up,zǒng,心,counting
+12,包,wrap,bāo,勹,actions
+12,水,water,shuǐ,,nature
+12,果,fruit,guǒ,木,food
+12,语,language,yǔ,言,language
+12,言,"speech, word",yán,,language
+13,切,"cut, slice",qiē,刀,actions
+13,肉,meat,ròu,,food
+13,牛,"ox, cow",niú,,animals
+13,极,extremely,jí,木,description
+13,食,eat,shí,,food
+13,品,"goods, product",pǐn,口,things
+13,土,earth,tǔ,,nature
+13,节,"restrict, control",jié,艸,actions
+13,入,enter,rù,,movement
+13,主,master,zhǔ,丶,society
+13,意,meaning,yì,心,perception
+13,思,think,sī,心,perception
+13,双,pair,shuāng,又,counting
+13,鞋,shoe,xié,革,clothes
+13,黑,black,hēi,,colors
+13,色,color,sè,,colors
+13,穿,wear,chuān,穴,clothes
+13,算,calculate,suàn,竹,counting
+13,应,should,yīng,广,grammar
+13,该,should,gāi,言,grammar
+13,衣,clothing,yī,,things
+13,服,clothing,fú,月,things
+13,如,if,rú,女,grammar
+13,内,inside,nèi,冂,directions
+14,随,follow,suí,阜,movement
+14,便,convenient,biàn,人,description
+14,用,use,yòng,,actions
+14,够,enough,gòu,夕,counting
+14,爸,dad,bà,父,family
+14,妈,mom,mā,女,family
+14,受,endure,shòu,又,actions
+14,米,uncooked rice,mǐ,,food
+14,系,relate to,xì,丝,perception
+14,系,"nervous, excited",jí,心,emotions
+14,喝,drink,hē,口,drinks
+14,酒,liquor,jiǔ,酉,drinks
+14,桌,table,zhuō,木,furniture
+14,席,banquet,xí,巾,food
+14,参,participate,cān,厶,actions
+14,每,every,měi,母,counting
+14,元,dollar,yuán,儿,money
+14,做,do; make,zuò,人,actions
+14,自,self,zì,,people
+14,己,self,jǐ,,people
+14,风,wind,fēng,,nature
+14,味,taste; smell,wèi,口,senses
+14,由,from,yóu,田,directions
+14,留,keep; leave behind,liú,田,actions
+15,非,not,fēi,,grammar
+15,常,often,cháng,巾,time
+15,简,simple,jiǎn,竹,description
+15,单,"single, alone",dān,口,people
+15,句,phrase,jù,口,language
+15,活,live,huó,水,life
+15,各,each,gè,口,counting
+15,客,guest,kè,宀,relationships
+15,习,practice,xí,冫,school
+15,惯,be accustomed to,guàn,心,emotions
+15,认,recognize,rèn,言,perception
+15,识,know; recognize,shí,言,perception
+15,把,"take, hold",bǎ,手,actions
+15,夫,husband,fū,大,relationships
+15,感,respond; feel,gǎn,心,emotions
+15,及,and,jí,又,grammar
+15,更,even more,gèng,曰,grammar
+15,笑,laugh,xiào,竹,conversation
+15,愿,"wish, want",yuàn,心,emotions
+15,当,should,dāng,小,grammar
+15,除,remove,chú,阜,actions
+15,让,let; make,ràng,言,actions
+15,调,adjust; blend,tiáo,言,misc.
+15,料,material,liào,斗,things
+16,而,also,ér,,grammar
+16,且,moreover,qiě,一,grammar
+16,鱼,fish,yú,,animals
+16,改,change,gǎi,攵,misc.
+16,务,be engaged in,wù,力,interactions
+16,员,member,yuán,口,society
+16,替,replace; for,tì,曰,actions
+16,接,"receive, welcome",jiē,手,conversation
+16,敢,dare; be bold,gǎn,攵,misc.
+16,量,capacity,liàng,里,counting
+16,深,deep,shēn,水,description
+16,石,rock,shí,,nature
+16,预,prepare,yù,頁,actions
+16,爱,love,ài,爪,emotions
+16,步,step,bù,止,movement
+16,数,number,shù,攵,numbers
+16,紧,"tight, tense",jǐn,丝,description
+16,啊,(particle that softens),a,口,grammar
+16,代,substitute for,dài,人,misc.
+16,课,lesson,kè,言,school
+16,馆,hotel,guàn,食,building
+16,虽,although,suī,口,grammar
+16,茶,tea,chá,艸,drinks
+16,乐,happy,lè,丿,emotions
+17,坏,bad,huài,土,description
+17,提,mention,tí,手,conversation
+17,际,border,jì,阜,society
+17,音,sound,yīn,,senses
+17,空,empty; air,kōng,穴,nature
+17,趣,interesting,qù,走,description
+17,占,occupy,zhàn,卜,actions
+17,线,"wire, line",xiàn,丝,things
+17,告,tell,gào,口,conversation
+17,诉,tell,sù,言,conversation
+17,挂,hang up,guà,手,misc.
+17,传,transmit,chuán,人,misc.
+17,声,sound; tone,shēng,士,senses
+17,立,stand,lì,,movement
+17,红,red,hóng,丝,colors
+17,黄,yellow,huáng,,colors
+17,图,"drawing, map",tú,囗,paper
+17,领,lead; head,lǐng,頁,society
+17,床,bed,chuáng,广,furniture
+17,另,in addition,lìng,口,grammar
+17,怕,fear,pà,心,emotions
+17,树,tree,shù,木,nature
+17,花,flower,huā,艸,nature
+17,草,grass,cǎo,,nature
+18,孩,child,hái,子,people
+18,马,horse,mǎ,,animals
+18,相,mutually,xiāng,目,relationships
+18,管,control,guǎn,竹,interactions
+18,严,stern,yán,一,description
+18,重,heavy; weight,zhòng,里,description
+18,谈,chat,tán,言,conversation
+18,既,since,jì,无,grammar
+18,送,give,sòng,辶,interactions
+18,使,send,shǐ,人,interactions
+18,希,hope,xī,巾,emotions
+18,望,hope,wàng,月,emotions
+18,抽,take out,chōu,手,actions
+18,烟,tobacco; smoke,yān,火,misc.
+18,吸,inhale,xī,口,actions
+18,区,area,qū,匸,places
+18,情,sentiment,qíng,心,emotions
+18,帮,help,bāng,巾,interactions
+18,容,allow,róng,宀,interactions
+18,易,easy,yì,日,perception
+18,尽,to the very limit,jìn,尸,misc.
+18,力,strength,lì,,body
+18,化,change,huà,匕,misc.
+18,流,flow; spread,liú,水,misc.
+19,考,test,kǎo,老,school
+19,试,try; test,shì,言,school
+19,病,get sick,bìng,疒,body
+19,跑,run,pǎo,足,movement
+19,飞,fly,fēi,,movement
+19,船,"boat, ship",chuán,舟,transportation
+19,身,body,shēn,,body
+19,体,body,tǐ,人,body
+19,绩,achievement,jī,丝,school
+19,注,concentrate on,zhù,水,perception
+19,于,be located at,yú,二,directions
+19,论,discuss,lùn,言,conversation
+19,向,toward,xiàng,口,directions
+19,眼,eye,yǎn,目,body
+19,连,even,lián,辶,grammar
+19,利,sharp,lì,刀,description
+19,产,produce,chǎn,亠,actions
+19,义,righteousness,yì,丶,virtues
+19,责,responsibility,zé,贝,virtues
+19,任,duty,rèn,人,virtues
+19,父,father,fù,,family
+19,母,mother,mǔ,,family
+19,教,teach,jiào,攵,school
+19,信,letter,xìn,人,conversation
