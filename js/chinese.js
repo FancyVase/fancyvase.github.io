@@ -164,7 +164,7 @@ function draw() {
 	textFont("Helvetica");
 	textSize(24);
 	textStyle(NORMAL);
-	text('汉子', 63, 42);
+	text('汉字', 63, 42);
 	textFont(latoL);
 	textSize(22);
 	text(' |    hanzi', 136, 37);
@@ -269,7 +269,7 @@ function draw() {
 		textFont("Helvetica");
 		textSize(24);
 		textStyle(NORMAL);
-		text('汉子', 480, 165);
+		text('汉字', 480, 165);
 
 		textFont(latoL);
 		rectMode(CORNER);
