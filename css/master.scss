@@ -1,0 +1,49 @@
+$font-stack: Avenir, Helvetica, sans-serif;
+$text-size: 20px;
+$text-color: rgb(90,90,90);
+$main-color: #5A80BC;
+$gray: #eee;
+$transition-time: 0.25s;
+
+html, body {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: $font-stack;
+	font-size: $text-size;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+}
+
+::-moz-selection {
+	color: transparent;
+	background: $main-color;
+}
+
+::selection {
+	color: transparent;
+	background: $main-color;
+}
+
+// Media queries
+
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+@mixin mobile {
+	@media (max-width: #{$tablet-width - 1px}) {
+		@content;
+	}
+}
+
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
