@@ -81,13 +81,14 @@ header {
     font-size: 60px;
     font-weight: 100;
     color: #5A80BC;
-    padding-bottom: 60px; }
+    margin-bottom: 60px; }
   header .shapes {
     display: none; }
     header .shapes svg {
       height: 35px;
       width: 20px;
       fill: #5a5a5a;
+      fill: #5A80BC;
       margin: 0 7px; }
   header .links {
     font-weight: 100; }
@@ -110,12 +111,13 @@ header {
   header {
     padding: 0; }
     header .name {
-      padding-bottom: 10px; }
+      margin-bottom: 10px; }
     header .shapes {
       display: block;
       margin-bottom: 50px; }
     header .links .link {
-      margin: 25px 0; }
+      margin: 25px 0;
+      font-size: 24px; }
       header .links .link img {
         display: none; } }
 @media (max-width: 767px) {

@@ -29,7 +29,7 @@ header {
 		font-size: $index-title;
 		font-weight: 100;
 		color: $main-color;
-		padding-bottom: 60px;
+		margin-bottom: 60px;
 	}
 
 	.shapes {
@@ -39,6 +39,7 @@ header {
 			height: 35px;
 			width: 20px;
 			fill: $text-color;
+			fill: $main-color;
 			margin: 0 7px;
 		}
 	}
@@ -80,7 +81,7 @@ header {
 		padding: 0;
 
 		.name {
-			padding-bottom: 10px;
+			margin-bottom: 10px;
 		}
 
 		.shapes {
@@ -91,6 +92,8 @@ header {
 		.links {
 			.link {
 				margin: 25px 0;
+
+				font-size: $index-link-mobile;
 
 				img {
 					display: none;
