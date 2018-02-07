@@ -3,9 +3,48 @@ html, body {
   padding: 0;
   margin: 0;
   font-family: Avenir, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 14px;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important; }
+
+#menu {
+  border: none;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  margin: 0; }
+  #menu a.navbar-brand {
+    font-size: 19px;
+    color: #5a5a5a;
+    font-weight: 400;
+    transition: 0.25s; }
+  #menu .shape {
+    transition: 0.25s;
+    height: 35px;
+    width: 20px;
+    fill: #5a5a5a; }
+  #menu .brand:hover {
+    cursor: pointer; }
+    #menu .brand:hover .navbar-brand {
+      color: #5A80BC; }
+    #menu .brand:hover .shape {
+      fill: #5A80BC; }
+  #menu .navbar-nav > li > a {
+    letter-spacing: 1px;
+    color: #5a5a5a;
+    transition: 0.25s; }
+  #menu .navbar-nav > li > a:hover {
+    color: #5A80BC; }
+  #menu .navbar-toggle {
+    border-radius: 0;
+    border: none; }
+    #menu .navbar-toggle .icon-bar {
+      background-color: #5a5a5a; }
+    #menu .navbar-toggle:hover, #menu .navbar-toggle:active, #menu .navbar-toggle:focus {
+      background-color: #5A80BC;
+      background-color: #eee; }
+      #menu .navbar-toggle:hover .icon-bar, #menu .navbar-toggle:active .icon-bar, #menu .navbar-toggle:focus .icon-bar {
+        background-color: #5A80BC; }
 
 ::-moz-selection {
   color: transparent;
@@ -37,40 +76,50 @@ html, body {
 
 header {
   height: 100vh;
-  padding-top: 125px; }
+  padding-top: 100px; }
   header .name {
     font-size: 60px;
     font-weight: 100;
     color: #5A80BC;
     padding-bottom: 60px; }
+  header .shapes {
+    display: none; }
+    header .shapes svg {
+      height: 35px;
+      width: 20px;
+      fill: #5a5a5a;
+      margin: 0 7px; }
   header .links {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    text-align: center;
     font-weight: 100; }
     header .links .link {
-      margin: 0 10px; }
+      font-size: 20px; }
     header .links a, header .links a:hover, header .links a:active {
       text-decoration: none;
       color: #5A80BC; }
     header .links a {
       transition: .25s;
-      color: #5a5a5a; }
-    header .links .shape {
+      color: #5a5a5a;
+      margin-bottom: 40px; }
+    header .links img {
       opacity: 0;
-      margin-top: 40px;
-      fill: #5A80BC;
-      width: 150px;
-      height: 150px; }
+      width: 50%; }
+    header .links .triangle img {
+      width: 58%; }
+
+@media (max-width: 1023px) {
+  header {
+    padding: 0; }
+    header .name {
+      padding-bottom: 10px; }
+    header .shapes {
+      display: block;
+      margin-bottom: 50px; }
+    header .links .link {
+      margin: 25px 0; }
+      header .links .link img {
+        display: none; } }
+@media (max-width: 767px) {
+  header .name {
+    font-size: 40px; } }
 
 /*# sourceMappingURL=index.css.map */

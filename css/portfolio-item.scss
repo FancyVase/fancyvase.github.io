@@ -1,7 +1,5 @@
 @import "master.scss";
 
-$text-size: 14px;
-
 $background-color: rgba($main-color, 0.9);
 
 html, body {
@@ -14,49 +12,6 @@ a, a:hover {
 	background-color: transparent;
 }
 
-#menu {
-	border: none;
-	font-size: $text-size + 2;
-	background-color: rgba(255,255,255,0.9);
-	padding: 20px;
-	margin: 0;
-
-	a.navbar-brand {
-		font-size: $text-size + 5;
-		color: $text-color;
-		font-weight: 400;
-		transition: $transition-time;
-	}
-
-	.shape {
-		transition: $transition-time;
-		height: 35px;
-		width: 20px;
-		fill: $text-color;
-	}
-
-	.brand:hover {
-		cursor: pointer;
-
-		.navbar-brand {
-			color: $main-color;
-		}
-		.shape {
-			fill: $main-color;
-		}
-	}
-
-	.navbar-nav > li > a {
-		letter-spacing: 1px;
-		color: $text-color;
-		transition: $transition-time;
-	}
-
-	.navbar-nav > li > a:hover {
-		color: $main-color;
-	}
-}
-
 .intro {
 	width: 70%;
 	margin: 0 auto;
@@ -67,12 +22,13 @@ a, a:hover {
 	display: inline-block;
 
 	.name {
-		font-size: $text-size + 30;
+		font-size: $item-title;
+		line-height: $item-title;
 		font-weight: 700;
+		margin-bottom: 5px;
 	}
 
 	.description {
-		font-size: $text-size;
 		font-weight: 100;
 		text-transform: uppercase;
 		letter-spacing: 0.25em;
@@ -117,9 +73,17 @@ a, a:hover {
 }
 
 .square {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	margin-top: 25px;
+	margin-left: 25px;
 	display: inline-block;
-	padding-left: 15px;
-	transform-origin: 40px 100px;
+
+	svg {
+		width: 100%;
+		height: 100%;
+	}
 
 	rect {
 		transition: $transition-time;
@@ -134,8 +98,8 @@ a, a:hover {
 .content {
 	width: 70%;
 	margin: 0 auto;
-	font-size: $text-size + 2;
-	padding-bottom: $text-size * 5;
+	font-size: $content-text;
+	padding-bottom: 60px;
 
 	p {
 		padding: 10px 0;
@@ -170,7 +134,7 @@ a, a:hover {
 
 		.title {
 			display: inline;
-			font-size: $text-size + 1;
+			font-size: $content-title;
 			text-transform: uppercase;
 			letter-spacing: 0.25em;
 			margin-right: 15px;
@@ -182,7 +146,7 @@ a, a:hover {
 			margin-left: 5px;
 			text-transform: none;
 			letter-spacing: 0;
-			background-color: $gray;
+			background-color: $background-highlight;
 			padding: 5px 15px;
 		}
 	}
@@ -202,4 +166,52 @@ a, a:hover {
     content: "";
     clear: both;
     display: table;
+}
+
+@include tablet {
+	.content, .intro {
+		width: 90%;
+	}
+
+	.content {
+		.section {
+			.title {
+				display: block;
+				margin-bottom: 10px;
+			}
+
+			.skills {
+				margin-left: 0;
+			}
+		}
+	}
+}
+
+@include mobile {
+	.square {
+		display: none;
+	}
+
+	.content, .intro {
+		width: 90%;
+	}
+
+	.content {
+		.section {
+			.title {
+				display: block;
+				margin-bottom: 10px;
+			}
+
+			.skills {
+				margin-left: 0;
+			}
+		}
+		img.cover, img.inline.left, img.inline.right {
+			float: none;
+			width: 100%;
+			margin-left: 0;
+			margin-right: 0;
+		}
+	}
 }

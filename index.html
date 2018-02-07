@@ -11,24 +11,35 @@
 <body>
 <header id="header" class="centered">
 	<div class="name">Hiram Moncivais</div>
+	<div class="shapes">
+		<svg class="shape">
+			<rect width="15" height="15" y="17.5"/>
+		</svg>
+		<svg class="shape">
+			<polygon points="0,32.5,8.75,17,17.5,32.5"/>
+		</svg>
+		<svg class="shape">
+			<circle cx="10" cy="25" r="8"/>
+		</svg>
+	</div>
 	<div class="row links"> 
-		<div href="#" class="link col-lg-3">
-			<a href="portfolio.html">Portfolio</a>
-			<svg class="shape">
-				<rect width="140" height="140" x="5"/>
-			</svg>
+		<div href="#" class="link col-md-4">
+			<div class="row">
+				<a class="col-md-12" href="portfolio.html">Portfolio</a>
+				<img src="img/square.svg">
+			</div>
 		</div> 
-		<div href="#" class="link col-lg-3">
-			<a href="#">About</a>
-			<svg class="shape">
-			  <polygon points="0,140 150,140 75,0"/>
-			</svg>
+		<div href="#" class="link col-md-4">
+			<div class="triangle row">
+				<a class="col-md-12" href="about.html">About</a>
+				<img src="img/triangle.svg">
+			</div>
 		</div> 
-		<div href="#" class="link col-lg-3">
-			<a href="#">Contact</a>
-			<svg class="shape">
-				<circle cx="75" cy="70" r="70"/>
-			</svg>
+		<div href="#" class="link col-md-4">
+			<div class="row">
+				<a class="col-md-12" href="mailto:mm.hiram@gmail.com">Contact</a>
+				<img src="img/circle.svg">
+			</div>
 		</div> 
     </div>
 </header>
@@ -37,198 +48,3 @@
 <script  src="js/index.js"></script>
 </body>
 </html>
-
-
-
-
-<!-- <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="author" content="Hiram Moncivais">
-    <meta name="description" content="A personal website for Hiram Moncivais.">
-	
-    <title>Hiram Moncivais</title>
-	
-    <link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="css/skeleton.css">
-	<link rel="stylesheet" type="text/css" href="css/index.css">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato:100,200,300,400"/> 
-
-	<script type="text/javascript" src="js/paper-full.js"></script>
-	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-	<script type="text/javascript" src="js/index.js"></script>
-	<script type="text/paperscript" canvas="space" src="js/space.js"></script>
-</head>
-
-<body>
-	<div class="nav nav-up">
-		<a href="https://github.com/fancyvase" target="_blank">Hack</a> | <a href="design.html">Design</a> | <a href="capture.html">Capture</a>
-	</div>
-
-	<canvas id="space" resize hidpi="off" style="background:black"></canvas>
-
-	<header id="header">
-		<div class="heading"><h1>Hiram Moncivais</h1></div>
-		<div class="subheading"> 
-            <a href="#hack">Hack</a> | 
-            <a href="#design">Design</a> | 
-            <a href="#capture">Capture</a>
-        </div>
-		<a href="#about-me"><div class="arrow bounce"></div></a>
-	</header>
-
-	<div id="about-me">
-		<img src="img/me.png" class="me-img" alt="Self-portrait">
-		<div class="content">
-			Hi! I'm Hiram, a senior at MIT interested in <span class="mauve">design</span>, <span class="mauve">understanding data</span>, and <span class="mauve">helping people</span> through technology.
-		</div>
-	</div>
-
-	<div class="section section-dark" id="hack">
-		<h2 class="white">Hack</h2>
-
-		<div class="row">
-			<div class="one-third column item">
-				<a href="https://github.com/maryam-a/mybucket" target="_blank">
-					<div class="shadow">
-						<div class="item-img" style="background:#3CAE2A url(img/mybucket.png) no-repeat scroll center; background-size: contain;"></div>
-					</div>
-				</a>
-				<span class="item-name item-dark">
-					<a class="white" href="https://github.com/maryam-a/mybucket" target="_blank">MyBucket</a> - 6.148 Finalist
-				</span>
-				<hr class="dark">
-			</div>
-
-			<div class="one-third column item">
-				<a href="https://htmlpreview.github.io/?https://github.com/FancyVase/timeless_art/blob/master/index.html" target="_blank">
-					<div class="shadow">
-						<div class="item-img" style="background:#808D8E url(img/timeless.png) no-repeat scroll center; background-size: contain;"></div>
-					</div>
-				</a>
-				<span class="item-name item-dark">
-					<a class="white" href="https://htmlpreview.github.io/?https://github.com/FancyVase/timeless_art/blob/master/index.html" target="_blank">Timeless Art</a> - MAS.110 Final Project
-				</span>
-				<hr class="dark">
-			</div>
-
-			<div class="one-third column item">
-				<a href="https://play.google.com/store/apps/details?id=hiram.xyz.hackmit15" target="_blank">
-					<div class="shadow">
-						<div class="item-img" style="background:#3E76E3 url(img/positivity.png) no-repeat scroll center; background-size: contain;"></div>
-					</div>
-				</a>
-				<span class="item-name item-dark">
-					<a class="white" href="https://play.google.com/store/apps/details?id=hiram.xyz.hackmit15" target="_blank">Positivity</a> - HackMIT 2015
-				</span>
-				<hr class="dark">
-			</div>
-		</div>
-		<div class="more">
-			<a href="https://github.com/fancyvase" class="more-link more-link-dark" target="_blank">More Hack</a>
-		</div>
-	</div>
-
-	<div class="section" id="design">
-		<h2 class="black">Design</h2>
-
-		<div class="row">
-			<div class="one-third column item">
-				<a href="http://sportsclubs.ucsd.edu/sports/teams/waterpolom/" target="_blank">
-					<div class="shadow">
-						<div class="item-img" style="background:#fff url(img/sunset.png) no-repeat scroll center; background-size: contain;"></div>
-					</div>
-				</a>
-				<span class="item-name">
-					<a class="black" href="http://sportsclubs.ucsd.edu/sports/teams/waterpolom/" target="_blank">Sunset Logo</a> - San Diego Water Polo Team
-				</span>
-				<hr>
-			</div>
-
-			<div class="one-third column item">
-				<a href="http://technique.mit.edu/" target="_blank">
-					<div class="shadow">
-						<div class="item-img" style="background:#090818 url(img/technique.png) no-repeat scroll center; background-size: contain;"></div>
-					</div>
-				</a>
-				<span class="item-name">
-					<a class="black" href="http://technique.mit.edu/" target="_blank">Technique Banner</a> - Yearbook Club
-				</span>
-				<hr>
-			</div>
-
-			<div class="one-third column item">
-				<a href="http://www.torreypinesfootball.com/" target="_blank">
-					<div class="shadow">
-						<div class="item-img" style="background:#283945 url(img/hack.png) no-repeat scroll center; background-size: contain;"></div>
-					</div>
-				</a>
-				<span class="item-name">
-					<a class="black" href="https://hackmit.org/" target="_blank">Hacker Shirt</a> - HackMIT'16
-				</span>
-				<hr>
-			</div>
-		</div>
-		<div class="more">
-			<a href="design.html" class="more-link">More Design</a>
-		</div>
-	</div>
-
-	<div class="section section-dark" id="capture">
-		<h2 class="white">Capture</h2>
-
-		<div class="row">
-			<div class="one-third column item">
-				<a href="https://www.flickr.com/photos/138743413@N04/25112174581/in/dateposted-public/lightbox/" target="_blank">
-					<div class="shadow">
-						<div class="item-img" style="background:#000 url('https://c2.staticflickr.com/2/1658/25112174581_671a280fb1_b.jpg') no-repeat scroll center; background-size: cover;"></div>
-					</div>
-				</a>
-				<span class="item-name item-dark">
-					<a class="white" href="https://www.flickr.com/photos/138743413@N04/25112174581/in/dateposted-public/lightbox/" target="_blank">La Bufadora</a> - Ensenada, Mexico
-				</span>
-				<hr class="dark">
-			</div>
-
-			<div class="one-third column item">
-				<a href="https://www.flickr.com/photos/138743413@N04/25087219512/in/dateposted-public/lightbox/" target="_blank">
-					<div class="shadow">
-						<div class="item-img" style="background:#000 url('https://c2.staticflickr.com/2/1674/25087219512_df0b5e7250_b.jpg') no-repeat scroll center; background-size: cover;"></div>
-					</div>
-				</a>
-				<span class="item-name item-dark">
-					<a class="white" href="https://www.flickr.com/photos/138743413@N04/25087219512/in/dateposted-public/lightbox/" target="_blank">Gene Shinozaki</a> - Cambridge, MA
-				</span>
-				<hr class="dark">
-			</div>
-
-			<div class="one-third column item">
-				<a href="https://www.flickr.com/photos/138743413@N04/25205402875/in/dateposted-public/lightbox/" target="_blank">
-					<div class="shadow">
-						<div class="item-img" style="background:#000 url('https://c2.staticflickr.com/2/1626/25205402875_02f62a5d71_b.jpg') no-repeat scroll center; background-size: cover;"></div>
-					</div>
-				</a>
-				<span class="item-name item-dark">
-					<a class="white" href="https://www.flickr.com/photos/138743413@N04/25205402875/in/dateposted-public/lightbox/" target="_blank">Over Seoul</a> - Seoul, South Korea
-				</span>
-				<hr class="dark">
-			</div>
-		</div>
-		<div class="more">
-			<a href="capture.html" class="more-link more-link-dark">More Capture</a>
-		</div>
-	</div>
-
-	<footer>
-		<div class="links">
-			<span class="link"><a target="_blank" href="https://github.com/FancyVase/">github</a></span> 
-            <span class="link"><a target="_blank" href="https://www.linkedin.com/in/hirammoncivais/">linkedin</a></span> 
-            <span class="link"><a href="mailto:mm.hiram@gmail.com">contact</a></span>
-		</div>
-		&copy; <a href="index.html">Hiram Moncivais</a> 2017
-    </footer>
-	
-</body>
-
-</html> -->
