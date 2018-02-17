@@ -55,7 +55,6 @@ html, body {
   background: #5A80BC; }
 
 html, body {
-  font-size: 14px;
   color: #5a5a5a; }
 
 a, a:hover {
@@ -65,7 +64,8 @@ a, a:hover {
 .intro {
   width: 70%;
   margin: 0 auto;
-  padding: 35vh 0; }
+  padding: 35vh 0;
+  transition: 0.5s; }
 
 .header {
   display: inline-block; }
@@ -77,10 +77,11 @@ a, a:hover {
   .header .description {
     font-weight: 100;
     text-transform: uppercase;
-    letter-spacing: 0.25em; }
+    letter-spacing: 0.25em;
+    margin-bottom: 15px; }
 
 .link {
-  margin: 5px 0px; }
+  font-size: 16px; }
   .link a, .link a:active {
     transition: 0.25s;
     text-decoration: none;
@@ -123,16 +124,26 @@ a, a:hover {
   .square rect:hover {
     fill: #5A80BC; }
 
+.skill {
+  display: inline;
+  font-size: 14px;
+  text-transform: none;
+  letter-spacing: 0;
+  background-color: #eee;
+  padding: 5px 15px; }
+
 .content {
   width: 70%;
   margin: 0 auto;
   font-size: 16px;
-  padding-bottom: 60px; }
+  padding-bottom: 60px;
+  transition: 0.5s; }
   .content p {
     padding: 10px 0;
     margin: 0; }
   .content img {
-    margin: 10px 0; }
+    margin: 10px 0;
+    image-orientation: from-image; }
   .content img.cover {
     width: 100%; }
   .content img.inline {
@@ -152,14 +163,8 @@ a, a:hover {
       text-transform: uppercase;
       letter-spacing: 0.25em;
       margin-right: 15px; }
-    .content .section .skills {
-      display: inline;
-      font-size: 14px;
-      margin-left: 5px;
-      text-transform: none;
-      letter-spacing: 0;
-      background-color: #eee;
-      padding: 5px 15px; }
+    .content .section .skill {
+      margin-left: 5px; }
   .content a {
     text-decoration: none;
     border-bottom: 1px solid #5a5a5a;
@@ -167,6 +172,20 @@ a, a:hover {
   .content a:hover {
     color: #5A80BC;
     border-bottom: 1px solid #5A80BC; }
+  .content .video {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0; }
+  .content .video iframe, .content .video object, .content .video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
 
 .clearfix::after {
   content: "";
@@ -180,7 +199,7 @@ a, a:hover {
   .content .section .title {
     display: block;
     margin-bottom: 10px; }
-  .content .section .skills {
+  .content .section .skill {
     margin-left: 0; } }
 @media (max-width: 767px) {
   .square {
@@ -192,7 +211,7 @@ a, a:hover {
   .content .section .title {
     display: block;
     margin-bottom: 10px; }
-  .content .section .skills {
+  .content .section .skill {
     margin-left: 0; }
   .content img.cover, .content img.inline.left, .content img.inline.right {
     float: none;

@@ -1,0 +1,48 @@
+@import "master.scss";
+
+$text-size: 14px;
+
+$background-color: rgba($main-color, 0.9);
+
+html, body {
+	margin-top: 50px;
+	transition: 0.5s;
+	font-size: $text-size;
+	color: $text-color;
+}
+
+a, a:hover {
+	text-decoration: none;
+	background-color: transparent;
+}
+
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none;
+}
+
+.about {
+	margin-top: 10vh;
+	transition: 0.5s;
+	width: 70%;
+
+	div {
+		font-size: 16px;
+		font-size: 18px;
+		margin: 15px 0;
+	}
+
+	.large {
+		margin: 30px 0;
+		color: $main-color;
+		font-size: $about-large;
+		font-weight: 400;	
+		line-height: $about-large;
+	}
+}
+
+@include mobile {
+	.about {
+		width: 90%;
+	}
+}

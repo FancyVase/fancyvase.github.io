@@ -13,11 +13,14 @@ $index-title-mobile: 40px;
 $index-link: 20px;
 $index-link-mobile: 24px;
 
+$about-large: 36px;
+
 $item-title: 44px;
 $content-title: 15px;
 $content-text: 16px;
 
-$transition-time: 0.25s;
+$transition-fast: 0.25s;
+$transition-slow: 0.5s;
 
 html, body {
 	height: 100%;
@@ -40,11 +43,11 @@ html, body {
 		font-size: $brand-size;
 		color: $text-color;
 		font-weight: 400;
-		transition: $transition-time;
+		transition: $transition-fast;
 	}
 
 	.shape {
-		transition: $transition-time;
+		transition: $transition-fast;
 		height: 35px;
 		width: 20px;
 		fill: $text-color;
@@ -64,7 +67,7 @@ html, body {
 	.navbar-nav > li > a {
 		letter-spacing: 1px;
 		color: $text-color;
-		transition: $transition-time;
+		transition: $transition-fast;
 	}
 
 	.navbar-nav > li > a:hover {
