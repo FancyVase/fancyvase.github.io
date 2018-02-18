@@ -149,11 +149,7 @@ a, a:hover {
 			font-size: $content-title;
 			text-transform: uppercase;
 			letter-spacing: 0.25em;
-			margin-right: 15px;
-		}
-
-		.skill {
-			margin-left: 5px;
+			margin-right: 20px;
 		}
 	}
 
@@ -204,10 +200,6 @@ a, a:hover {
 				display: block;
 				margin-bottom: 10px;
 			}
-
-			.skill {
-				margin-left: 0;
-			}
 		}
 	}
 }
@@ -226,10 +218,6 @@ a, a:hover {
 			.title {
 				display: block;
 				margin-bottom: 10px;
-			}
-
-			.skill {
-				margin-left: 0;
 			}
 		}
 		img.cover, img.inline.left, img.inline.right {

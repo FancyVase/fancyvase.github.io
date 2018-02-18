@@ -162,9 +162,7 @@ a, a:hover {
       font-size: 15px;
       text-transform: uppercase;
       letter-spacing: 0.25em;
-      margin-right: 15px; }
-    .content .section .skill {
-      margin-left: 5px; }
+      margin-right: 20px; }
   .content a {
     text-decoration: none;
     border-bottom: 1px solid #5a5a5a;
@@ -198,9 +196,7 @@ a, a:hover {
 
   .content .section .title {
     display: block;
-    margin-bottom: 10px; }
-  .content .section .skill {
-    margin-left: 0; } }
+    margin-bottom: 10px; } }
 @media (max-width: 767px) {
   .square {
     display: none; }
@@ -211,8 +207,6 @@ a, a:hover {
   .content .section .title {
     display: block;
     margin-bottom: 10px; }
-  .content .section .skill {
-    margin-left: 0; }
   .content img.cover, .content img.inline.left, .content img.inline.right {
     float: none;
     width: 100%;
