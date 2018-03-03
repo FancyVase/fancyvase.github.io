@@ -129,7 +129,9 @@ a, a:hover {
   text-transform: none;
   letter-spacing: 0;
   background-color: #eee;
-  padding: 5px 15px; }
+  padding: 5px 15px;
+  white-space: nowrap;
+  line-height: 34px; }
 
 .content {
   width: 70%;
@@ -137,8 +139,9 @@ a, a:hover {
   font-size: 16px;
   padding-bottom: 60px;
   transition: 0.5s; }
-  .content p {
-    padding: 10px 0;
+  .content ul, .content ol, .content p {
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin: 0; }
   .content img {
     margin: 10px 0;

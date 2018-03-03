@@ -102,6 +102,8 @@ a, a:hover {
 	letter-spacing: 0;
 	background-color: $background-highlight;
 	padding: 5px 15px;
+	white-space: nowrap;
+	line-height: 34px;
 }
 
 .content {
@@ -111,11 +113,12 @@ a, a:hover {
 	padding-bottom: 60px;
 	transition: $transition-slow;
 
-	p {
-		padding: 10px 0;
+	ul, ol, p {
+		padding-top: 10px;
+		padding-bottom: 10px;
 		margin: 0;
 	}
-
+	
 	img {
 		margin: 10px 0;
 		image-orientation: from-image;
