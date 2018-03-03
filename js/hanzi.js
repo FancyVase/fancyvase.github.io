@@ -36,7 +36,7 @@ var topicColors = {
 function preload() {
 	latoL = loadFont('../assets/Lato-Light.ttf');
 
-	data = loadTable("../data/characters.csv", "csv", "header");
+	data = loadTable("../assets/characters.csv", "csv", "header");
 	charactersRaw = data.getRows();
 }
 
@@ -308,6 +308,11 @@ function mouseClicked() {
 	else if (mouseX > 835 && mouseX < 886 && mouseY > 0 && mouseY < 80 && viewLesson) {
 		viewLesson = false;
 		resetView();
+	}
+
+	// check if clicked on name
+	else if (mouseX > 1115 && mouseX < 1250 && mouseY > 0 && mouseY < 80) {
+		window.open(".","_blank")
 	}
 
 	// check if clicked on a character
