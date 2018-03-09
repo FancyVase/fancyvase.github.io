@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 648 341" style="enable-background:new 0 0 648 341;" xml:space="preserve">
 <style type="text/css">
@@ -7,12 +7,15 @@
 	.st1{fill:#DC3E65;}
 	.st2{fill:#FFFFFF;}
 	.st3{fill:#2B3743;}
-	.st4{font-family:'Bebas';}
-	.st5{font-size:307.3838px;}
 </style>
 <rect x="33" y="32" class="st0" width="170" height="174"/>
 <rect x="33" y="206" class="st1" width="170" height="107"/>
 <polygon class="st2" points="117.4,230.9 149,248.9 143.1,213.4 169,188.8 133.9,183.5 117.4,150.5 102.2,183.1 67.2,188.1 
 	92,212.8 85.9,248.9 "/>
-<text transform="matrix(0.8857 0 0 1 225.6084 310.8086)" class="st3 st4 st5">DFA</text>
+<path class="st3" d="M353,245.3c0,18-5.6,33.5-16.8,46.3c-11.2,12.8-24.8,19.2-40.6,19.2h-57.4V37h57.4c16,0,29.6,6.4,40.7,19.2
+	c11.1,12.8,16.7,28.2,16.7,46.1V245.3z M274.7,270h22c5.8,0,10.7-2.4,14.7-7.1c4-4.7,6-10.3,6-16.7V103c0-6.5-2-12.2-6.1-16.8
+	c-4.1-4.7-8.9-7-14.6-7h-22V270z"/>
+<path class="st3" d="M421.7,310.8h-36.5V37h104v41.5h-67.5v74.7H471v41.5h-49.3V310.8z"/>
+<path class="st3" d="M530.7,247.9l-8.9,62.9h-38.1l41.2-273.5h50.3l40.6,273.5h-38.4l-8.6-62.9H530.7z M549.9,99.9l-13.5,107.8h27.1
+	L549.9,99.9z"/>
 </svg>
