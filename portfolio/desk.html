@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Hiram Moncivais | Desk</title>
+
+	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+	<link rel="stylesheet" href="../css/portfolio-item.css">
+	<link rel="shortcut icon" href="../img/circle32.ico">
+</head>
+
+<body>
+	<nav id="menu" class="navbar navbar-default navbar-fixed-top">
+		<div class="container"> 
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"> 
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span> 
+					<span class="icon-bar"></span> 
+				</button>
+				<div class="brand" onclick="location.href='../index.html'">
+					<a class="navbar-brand" href="../index.html">Hiram Moncivais</a> 
+					<svg class="shape">
+						<rect width="15" height="15" y="17.5"/>
+					</svg>
+					<svg class="shape">
+						<polygon points="0,32.5,8.75,17,17.5,32.5"/>
+					</svg>
+					<svg class="shape">
+						<circle cx="10" cy="25" r="8"/>
+					</svg>
+				</div>
+			</div>
+
+			<div class="collapse navbar-collapse" id="navbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="../portfolio.html">Portfolio</a></li>
+					<li><a href="../about.html">About</a></li>
+					<li><a href="https://www.linkedin.com/in/hirammoncivais/" target="_blank">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container">
+		<div class="intro">
+			<div class="header">
+				<div class="name">Desk</div>
+				<div class="description">Self-Study Web Application</div>
+				<div class="link"><a href="https://cactus-desk.herokuapp.com/" target="_blank">Desk<i class="arrow"></i></a></div>
+			</div>
+
+			<div class="square">
+				<svg>
+					<rect onclick="window.open('https://cactus-desk.herokuapp.com/', '_blank');" style="cursor: pointer;" width="50" height="50"/>
+				</svg>
+			</div>
+		</div>
+
+		<div class="content clearfix">
+			<div class="section">
+				<div class="skill">AngularJS</div>
+				<div class="skill">Node</div>
+				<div class="skill">Express</div>
+				<div class="skill">MongoDB</div>
+				<div class="skill">Bootstrap</div>
+				<div class="skill">UI Design</div>
+			</div>
+
+			<p>Desk is a web application that helps aspiring self-learners be more efficient, motivated, and organized while self-studying or learning a new topic.</p>
+
+			<ul>
+				<li>The app allows users to keep track of all the resources they use while studying and makes it easier to find new resources to learn from.</li>
+				<li>Users will be able to easily view what resources they are currently using or have used previously.</li>
+				<li>In addition, they will be able to browse other users’ resources, with ratings, reviews, and tags so that it is easy to decide on a new resource to start studying.</li>
+			</ul>
+
+			<p>I built Desk with Stef Ren, Catheryn Li, and Runpeng Liu as our final project for MIT's Software Studio (6.170) class.</p>
+
+
+			<div class="section">
+				<div class="title">UI Design</div>
+			</div>
+
+			<p>Login</p>
+			<img class="cover" src="img/desk/screenshot1.jpg">
+
+			<p>Dashboard</p>
+			<img class="cover" src="img/desk/screenshot2.jpg">
+
+			<p>Browse</p>
+			<img class="cover" src="img/desk/screenshot3.jpg">
+
+			<p>Study Track</p>
+			<img class="cover" src="img/desk/screenshot4.jpg">
+
+			<div class="section">
+				<div class="title">Application Design</div>
+			</div>
+
+			<div class="section">
+				<div class="title">Existing Solutions</div>
+			</div>
+
+			<p>Current solutions for self-study rely heavily on site-specific material; for example, Coursera and edX help track progress through a course that is not user-specific and cannot be modified or augmented with other study materials.</p>
+
+			<p>Our app’s approach will allow users to keep track of their personalized self-study track. Desk allows users to easily find materials that are complementary to the resources they are already using.</p>
+
+			<div class="section">
+				<div class="title">Key Concepts</div>
+			</div>
+
+			<p>In order design a web application that effectively helps users self-learn, we identified key concepts we would use, as well as purposes and operational principles for each. Here are the concepts used in Desk:</p>
+
+			<ul>
+				<li>Track: A Track is a user-specific collection of study resources.</li>
+				<li>Resource: A Resource is a book, website, or other reference material.</li>
+				<li>Topic: A Topic is an area of study.</li>
+				<li>Vote: A Vote is an indication by a user that a study track is useful.</li>
+				<li>Rating: A Rating is score out of 5 stars indicating the quality of a study resource.</li>
+				<li>Status: A Status is a color-coded progress indicator for a resource.</li>
+			</ul>
+
+			<p>To describe the relationship and constraints between different elements of our application, we diagrammed a data model:</p>
+
+			<img class="cover" src="img/desk/datamodel.jpg">
+
+			<p>You Desk for yourself <a href="https://cactus-desk.herokuapp.com/" target="_blank">here!</a></p>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script src="../js/portfolio-item.js"></script>
+
+</body>
+</html>
