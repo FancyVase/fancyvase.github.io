@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,800');
+
 $main-color: #5A80BC;
 $background-highlight: #eee;
 
-// $font-stack: Avenir, Helvetica, sans-serif;
-$font-stack: Lato, Helvetica, sans-serif;
+$font-stack: 'Nunito Sans', sans-serif;
 $text-color: rgb(90,90,90);
 
 $text-size: 14px;
@@ -36,7 +37,7 @@ html, body {
 #menu {
 	border: none;
 	font-size: $menu-size;
-	font-weight: 300;
+	font-weight: 400;
 	background-color: rgba(255,255,255,0.9);
 	padding: 20px;
 	margin: 0;
@@ -44,7 +45,7 @@ html, body {
 	a.navbar-brand {
 		font-size: $brand-size;
 		color: $text-color;
-		// font-weight: 400;
+		font-weight: 400;
 		transition: $transition-fast;
 	}
 

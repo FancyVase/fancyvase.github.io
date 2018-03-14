@@ -1,8 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,800");
 html, body {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: Lato, Helvetica, sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-size: 14px;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important; }
@@ -10,13 +11,14 @@ html, body {
 #menu {
   border: none;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
   background-color: rgba(255, 255, 255, 0.9);
   padding: 20px;
   margin: 0; }
   #menu a.navbar-brand {
     font-size: 19px;
     color: #5a5a5a;
+    font-weight: 400;
     transition: 0.25s; }
   #menu .shape {
     transition: 0.25s;
@@ -81,10 +83,13 @@ a, a:hover {
     color: #5A80BC;
     font-size: 36px;
     font-weight: 400;
-    line-height: 36px; }
+    line-height: auto; }
 
 @media (max-width: 767px) {
   .about {
-    width: 90%; } }
+    margin-top: 0vh;
+    width: 90%; }
+    .about .large {
+      margin: 20px 0; } }
 
 /*# sourceMappingURL=about.css.map */

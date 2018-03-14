@@ -29,7 +29,7 @@ a, a:hover {
 	}
 
 	.description {
-		font-weight: 200;
+		font-weight: 300;
 		text-transform: uppercase;
 		letter-spacing: 0.25em;
 		margin-bottom: 15px;
@@ -38,6 +38,7 @@ a, a:hover {
 
 .link {
 	font-size: $content-text;
+	font-weight: 300;
 
 	a, a:active {
 		transition: $transition-fast;
@@ -144,7 +145,7 @@ a, a:hover {
 	}
 
 	.section {
-		font-weight: 200;
+		font-weight: 300;
 		margin: 20px 0;
 
 		.title {

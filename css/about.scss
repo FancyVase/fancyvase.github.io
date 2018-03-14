@@ -37,12 +37,17 @@ a, a:hover {
 		color: $main-color;
 		font-size: $about-large;
 		font-weight: 400;	
-		line-height: $about-large;
+		line-height: auto;
 	}
 }
 
 @include mobile {
 	.about {
+		margin-top: 0vh;
 		width: 90%;
+
+		.large {
+			margin: 20px 0;
+		}
 	}
 }
