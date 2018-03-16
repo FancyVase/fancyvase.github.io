@@ -259,11 +259,11 @@ function draw() {
 	if (showInfo) {
 		rectMode(CENTER);
 		fill('rgba(0,0,0,0.6)');
-		rect(windowWidth/2, windowHeight/2, windowWidth, windowHeight);
+		rect(640, 400, 1280, 800);
 		fill('#202020');
-		rect(windowWidth/2, windowHeight/2, 510, 510);
+		rect(640, 360, 510, 510);
 		fill('#252525');
-		rect(windowWidth/2, windowHeight/2, 500, 500);
+		rect(640, 360, 500, 500);
 
 		fill(255,255,255);
 		textFont("Helvetica");
@@ -286,8 +286,8 @@ function draw() {
 function mouseClicked() {
 	// info box is active
 	if (showInfo) {
-		if (mouseX > windowWidth/2+250 || mouseX < windowWidth/2-250 ||
-			mouseY > windowHeight/2+250 || mouseY < windowHeight/2-250) {
+		if (mouseX > 890 || mouseX < 390 ||
+			mouseY > 620 || mouseY < 110) {
 			showInfo = false;
 		}
 	}
@@ -370,27 +370,27 @@ function highlightCharacter(i) {
 	focusIndex = i;
 
 	if (viewLesson) {
-		characters[i]["charX"].set(windowWidth / 2 - x - 200);
-		characters[i]["charY"].set(windowHeight / 2 - y);
+		characters[i]["charX"].set(440 - x);
+		characters[i]["charY"].set(400 - y);
 		characters[i]["size"].set(400);
 
 		for (var ii = 0; ii < characters.length; ii++) {
 			if (ii != i) {
-				characters[ii]["charX"].set((windowWidth+200) * random([-0.5,1]) - x);
-				characters[ii]["charY"].set((windowHeight+200) * random([-0.5,1]) - y);
+				characters[ii]["charX"].set(1480 * random([-0.5,1]) - x);
+				characters[ii]["charY"].set(1000 * random([-0.5,1]) - y);
 				characters[ii]["size"].set(80);
 			}
 		}
 		focusCharacter = characters[i];
 	} else {
-		charactersTopic[i]["charX"].setTarget(windowWidth / 2 - x - 200);
-		charactersTopic[i]["charY"].setTarget(windowHeight / 2 - y);
+		charactersTopic[i]["charX"].setTarget(440 - x);
+		charactersTopic[i]["charY"].setTarget(400 - y);
 		charactersTopic[i]["size"].setTarget(400);
 
 		for (var ii = 0; ii < charactersTopic.length; ii++) {
 			if (ii != i) {
-				charactersTopic[ii]["charX"].set((windowWidth+200) * random([-0.5,1]) - x);
-				charactersTopic[ii]["charY"].set((windowHeight+200) * random([-0.5,1]) - y);
+				charactersTopic[ii]["charX"].set(1480 * random([-0.5,1]) - x);
+				charactersTopic[ii]["charY"].set(1000 * random([-0.5,1]) - y);
 				charactersTopic[ii]["size"].set(80);
 			}
 		}
