@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Hiram Moncivais | Springboard</title>
+
+	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+	<link rel="stylesheet" href="../css/portfolio-item.css">
+	<link rel="shortcut icon" href="../img/circle32.ico">
+</head>
+
+<body>
+	<nav id="menu" class="navbar navbar-default navbar-fixed-top">
+		<div class="container"> 
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"> 
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span> 
+					<span class="icon-bar"></span> 
+				</button>
+				<div class="brand" onclick="location.href='../index.html'">
+					<a class="navbar-brand" href="../index.html">Hiram Moncivais</a> 
+					<svg class="shape">
+						<rect width="15" height="15" y="17.5"/>
+					</svg>
+					<svg class="shape">
+						<polygon points="0,32.5,8.75,17,17.5,32.5"/>
+					</svg>
+					<svg class="shape">
+						<circle cx="10" cy="25" r="8"/>
+					</svg>
+				</div>
+			</div>
+
+			<div class="collapse navbar-collapse" id="navbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="../portfolio.html">Portfolio</a></li>
+					<li><a href="../about.html">About</a></li>
+					<li><a href="https://www.linkedin.com/in/hirammoncivais/" target="_blank">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container">
+		<div class="intro">
+			<div class="header">
+				<div class="name">Springboard</div>
+				<div class="description">Diver User Interface Design</div>
+				<div class="link"><a href="http://web.mit.edu/hmonciva/www/springboard/" target="_blank">Springboard<i class="arrow"></i></a></div>
+			</div>
+
+			<div class="square">
+				<svg>
+					<rect onclick="window.open('http://web.mit.edu/hmonciva/www/springboard/', '_blank');" style="cursor: pointer;" width="50" height="50"/>
+				</svg>
+			</div>
+		</div>
+
+		<div class="content clearfix">
+			<div class="section">
+				<div class="skill">UI Design</div>
+				<div class="skill">UI Implementation</div>
+				<div class="skill">Prototyping</div>
+				<div class="skill">Iterative Design</div>
+				<div class="skill">User Testing</div>
+			</div>
+			<p>Springboard is a web app that enables divers to keep track of their dive scores, create lists of dives to perform, and find new dives to learn.</p>
+
+			<p>I worked on Springboard as my term project for my <a href="http://web.mit.edu/6.813/www/sp16/" target="_blank">User Interface Design &amp; Implementation (6.813)</a> class alongside Brittney Johnson, Jessica Noss, and Dylan Holmes.</p>
+
+			<div class="section">
+				<div class="title">Problem &amp; User Analysis</div>
+				<div class="skill">User Interviews</div>
+			</div>
+
+			<p>For our project, we were tasked with solving a problem for a user group we did not belong to. We decided with divers as our target population as our team knew of some divers and we wondered how current applications for divers could be improved.</p>
+
+			<p>To understand problems faced by divers, we conducted several user interviews. We met with a pre-college diver (10 years experience), a group of MIT divers (10 years experience), and a new MIT diver (1 year experience).</p>
+
+			<p>From these interviews we identified two main user classes, along with their goals:</p>
+
+			<ol>
+				<li>New Divers
+					<ul>
+						<li>Learning how to dive.</li>
+						<li>Finding out what dives to perform and learn based on their current skill level.</li>
+						<li>Learning the complicated scoring system used in diving.</li>
+					</ul>
+				</li>
+				<li>Experienced Divers (&amp; Coaches)
+					<ul>
+						<li>Predicting future scores based on their ability, point value, and judges at a (dive) meet.</li>
+						<li>Determining which dives to perform.</li>
+						<li>Choosing which skills (dives) to learn next.</li>
+					</ul>
+				</li>
+			</ol>
+
+			<div class="section">
+				<div class="title">Initial Sketches</div>
+				<div class="skill">Brainstorming</div>
+				<div class="skill">Sketching</div>
+			</div>
+
+			<div class="row">
+				<div class="row col-md-6 col-xs-12">
+					<img class="col-xs-12" src="img/springboard/sketch1.jpg">
+					<img class="col-xs-12" src="img/springboard/sketch3.jpg">
+				</div>
+				<img class="col-md-6 col-xs-12" src="img/springboard/sketch2.jpg">
+			</div>
+
+			<div class="section">
+				<div class="title">Prototyping</div>
+				<div class="skill">High / Low Fidelity Prototyping</div>
+				<div class="skill">User Testing</div>
+			</div>
+
+			<p>To iterate on Springboard's design, we had two rounds of prototyping: low fidelity prototyping and high fidelity prototyping.</p>
+
+			<p>In the low fidelity prototyping stage, we built a paper prototype and tested it on other classmates.</p>
+
+			<div class="row">
+				<img class="col-md-4 col-xs-12" src="img/springboard/paper1.jpg">
+				<img class="col-md-4 col-xs-12" src="img/springboard/paper2.jpg">
+				<img class="col-md-4 col-xs-12" src="img/springboard/paper3.jpg">
+			</div>
+			<div class="row">
+				<img class="col-md-6 col-xs-12" src="img/springboard/paper4.jpg">
+				<img class="col-md-6 col-xs-12" src="img/springboard/paper5.jpg">
+			</div>
+
+			<p>To run our user tests, we briefed the user on the background and purpose of our application and presented various tasks to do. From these tests, we observed many usability problems ranging from navigation issues to confusion in word choice.</p>
+
+			<p>We addressed these problems in three iterations of paper prototyping as well as in our computer prototypes:</p>
+
+			<div class="row">
+				<img class="col-md-6 col-xs-12" src="img/springboard/computer1.jpg">
+				<img class="col-md-6 col-xs-12" src="img/springboard/computer2.jpg">
+				<img class="col-md-6 col-xs-12" src="img/springboard/computer3.jpg">
+				<img class="col-md-6 col-xs-12" src="img/springboard/computer4.jpg">
+			</div>
+
+			<div class="section">
+				<div class="title">Implementation</div>
+				<div class="skill">HTML</div>
+				<div class="skill">CSS</div>
+				<div class="skill">JavaScript</div>
+			</div>
+
+			<p>After iterating on our computer prototypes, we implemented a fully functional frontend, using hardcoded responses, browser-level storage, and APIs to simulate a backend.</p>
+
+			<p>Our eventual design centered around the Model-View paradigm to separate the displayed elements of our website from the underlying data structures.  For example, each dive in the Make Divelist database exists as a Javascript object, which is rendered to the screen as HTML using a function call every time the database is changed or filtered. We found that this separation made it much easier to implement basic functionality such as filtering, sorting, and adding/removing dives in the dive list.</p>
+
+			<p>Our data structures consist of the database of all possible dives, as well as structure for keeping track of the users' current list of dives.</p>
+
+			<p>Some of the things I implemented include:</p>
+
+			<ul>
+				<li>Index, login, signup, and profile pages.</li>
+				<li>Spacing, styling, and color adjustments throughout the site.</li>
+				<li>Navigation bar.</li>
+				<li>Export button and functionality in the Make Divelist page.</li>
+				<li>Click-and-drag functionality in the Learn Dives page.</li>
+				<li>Learn Dives page dive inspector and interaction.</li>
+				<li>Many minor / cosmetic features to improve UX.</li>
+			</ul>
+
+			<p>To see our final design, play with Springboard <a href="http://web.mit.edu/hmonciva/www/springboard/" target="_blank">here!</a> - no credentials needed for login or signup.</p>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script src="../js/portfolio-item.js"></script>
+
+</body>
+</html>
