@@ -144,6 +144,11 @@ a, a:hover {
 		margin-left: 15px;
 	}
 
+	.caption {
+		font-size: $text-size;
+		text-align: right;
+	}
+
 	.section {
 		font-weight: 300;
 		margin: 20px 0;

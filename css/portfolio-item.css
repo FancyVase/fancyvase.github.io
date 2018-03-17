@@ -160,6 +160,9 @@ a, a:hover {
   .content img.right {
     float: right;
     margin-left: 15px; }
+  .content .caption {
+    font-size: 14px;
+    text-align: right; }
   .content .section {
     font-weight: 300;
     margin: 20px 0; }
