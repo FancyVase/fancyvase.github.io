@@ -160,6 +160,8 @@ a, a:hover {
   .content img.right {
     float: right;
     margin-left: 15px; }
+  .content img.vadjust {
+    margin: 55px 0; }
   .content .caption {
     font-size: 14px;
     text-align: right; }
@@ -205,6 +207,9 @@ a, a:hover {
 
   .content .section .title {
     display: block;
+    margin-bottom: 10px; }
+  .content img.vadjust {
+    margin-top: 10px;
     margin-bottom: 10px; } }
 @media (max-width: 767px) {
   .square {
@@ -220,6 +225,9 @@ a, a:hover {
     float: none;
     width: 100%;
     margin-left: 0;
-    margin-right: 0; } }
+    margin-right: 0; }
+  .content img.vadjust {
+    margin-top: 10px;
+    margin-bottom: 10px; } }
 
 /*# sourceMappingURL=portfolio-item.css.map */

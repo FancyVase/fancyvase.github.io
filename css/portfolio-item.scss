@@ -144,6 +144,10 @@ a, a:hover {
 		margin-left: 15px;
 	}
 
+	img.vadjust {
+		margin: 55px 0;
+	}
+
 	.caption {
 		font-size: $text-size;
 		text-align: right;
@@ -210,6 +214,11 @@ a, a:hover {
 				margin-bottom: 10px;
 			}
 		}
+
+		img.vadjust {
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
 	}
 }
 
@@ -234,6 +243,11 @@ a, a:hover {
 			width: 100%;
 			margin-left: 0;
 			margin-right: 0;
+		}
+
+		img.vadjust {
+			margin-top: 10px;
+			margin-bottom: 10px;
 		}
 	}
 }
