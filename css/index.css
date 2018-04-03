@@ -83,12 +83,14 @@ header {
     font-weight: 100;
     color: #5A80BC; }
   header .shapes {
+    margin-top: 16px;
     margin-bottom: 70px; }
     header .shapes svg {
-      height: 35px;
+      height: 16px;
       width: 20px;
       fill: #5A80BC;
-      margin: 0 35px; }
+      margin: 0 35px;
+      cursor: pointer; }
   header .links {
     font-weight: 100; }
     header .links .link {
