@@ -8,7 +8,6 @@ var canScroll = true;
 var focusCharacter;
 var focusIndex;
 var viewLesson = true; // true = by lesson, false = by topic
-// var viewLesson = false; // true = by lesson, false = by topic
 var showInfo = false;
 
 
@@ -233,7 +232,7 @@ function draw() {
 		textFont(latoL);
 		text("Radical:", 700, 420);
 		textFont("Helvetica");
-		text(focusCharacter["Radical"] || focusCharacter["Character"], 788, 424);
+		text(focusCharacter["Radicals"] || focusCharacter["Character"], 788, 424);
 
 		// topic
 		textFont(latoL);
