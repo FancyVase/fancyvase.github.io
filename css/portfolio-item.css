@@ -181,6 +181,10 @@ a, a:hover {
   .content a:hover {
     color: #5A80BC;
     border-bottom: 1px solid #5A80BC; }
+  .content iframe {
+    border: 0;
+    width: 100%;
+    height: 500px; }
   .content .video {
     position: relative;
     padding-bottom: 56.25%;
@@ -228,6 +232,8 @@ a, a:hover {
     margin-right: 0; }
   .content img.vadjust {
     margin-top: 10px;
-    margin-bottom: 10px; } }
+    margin-bottom: 10px; }
+  .content iframe {
+    height: 400px; } }
 
 /*# sourceMappingURL=portfolio-item.css.map */
