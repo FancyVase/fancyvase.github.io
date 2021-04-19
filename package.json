@@ -1,0 +1,30 @@
+{
+  "name": "fancyvase.github.io",
+  "version": "1.0.0",
+  "description": "Check it out at [hiram.xyz](http://hiram.xyz).",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FancyVase/fancyvase.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FancyVase/fancyvase.github.io/issues"
+  },
+  "homepage": "https://github.com/FancyVase/fancyvase.github.io#readme",
+  "dependencies": {
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^9.5.3",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-markdown": "^4.3.1",
+    "swr": "^0.1.18"
+  }
+}
